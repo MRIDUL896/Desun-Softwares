@@ -20,7 +20,7 @@ export default function Team() {
               <div>in IT sphere</div>
             </div>
           </div>
-          <p className="text-center">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
+          <p className="text-center">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It&apos;s expensive but worth it</p>
         </div>
         <div className="px-6">
         <Image 
