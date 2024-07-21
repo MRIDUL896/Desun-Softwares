@@ -23,7 +23,7 @@ const ContactForm = () => {
     };
     return (
         <div className="space-x-16 bg-gradient-to-r from-yellow-500 to-green-800 w-full p-10">
-            <div className="flex justify-center items-center mx-16 space-x-16">
+            <div className="flex justify-center flex-col md:flex-row items-center mx-16 space-x-16">
             <div className='text-white'>
                 <h2>Let&apos;s discuss Your project</h2>
                 <span>Let&apos;s figure out how to create an effective application,its cost and terms of its development</span>

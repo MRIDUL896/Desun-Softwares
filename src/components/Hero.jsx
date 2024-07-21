@@ -38,7 +38,7 @@ export default function Hero() {
           <h2 className="text-xl font-bold mb-6">
             Leave your contacts and we will call you back within 30 minutes
           </h2>
-          <div className="flex items-end justify-end space-x-2">
+          <div className="flex flex-col md:flex-row items-end justify-end space-x-2">
             <div>
               <span className="text-sm">Full Name</span>
               <input
