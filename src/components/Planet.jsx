@@ -1,6 +1,6 @@
 export default function Planet() {
     return (
-        <div className="m-16 p-6">
+        <div className="m-16 p-6 hidden md:block">
             <hr />
             <div className="flex space-x-10 flex-wrap">
                 {[...Array(5)].map((_, i) => (

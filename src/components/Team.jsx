@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Team() {
     return (
       <div className="flex flex-col md:flex-row py-20 bg-blue-50">
@@ -21,7 +23,12 @@ export default function Team() {
           <p className="text-center">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
         </div>
         <div className="px-6">
-          <img src="https://s3-alpha-sig.figma.com/img/6208/80bf/5e83a8ecb37adc3c547562b3daeded65?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dOSA~KZJBSTmN~9W108m9znbOOyybabFPeNcRiMogP3pIxo2o4WPfIIi493gzIFx48KhLvI2OYNroHaZRaX7ya30v4lK7x2zBhw98lF5LvCs8N-akiWc8AjWOO~pcQYek3jbhRxV3e1gu7Ax6or0WtkXKiMZYr7HhC5tHBzbQXQwb~S9X9SZpvGuBguiBY3nHye4KFP5iGGt6pQzWusqL3MVrGMLUgKWee35fFn8DjbkI8s~y9aS4mJxK5CjEmipo6T4dPvL7iBePxzv7wER1Rk64UJuTqekP1lpaIKoT0bVLG1tbqdO0FCi5rePgwkEzHWjgmkg6Y3cmV3YfDvu7w__" alt="" />
+        <Image 
+                    src="https://s3-alpha-sig.figma.com/img/6208/80bf/5e83a8ecb37adc3c547562b3daeded65?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dOSA~KZJBSTmN~9W108m9znbOOyybabFPeNcRiMogP3pIxo2o4WPfIIi493gzIFx48KhLvI2OYNroHaZRaX7ya30v4lK7x2zBhw98lF5LvCs8N-akiWc8AjWOO~pcQYek3jbhRxV3e1gu7Ax6or0WtkXKiMZYr7HhC5tHBzbQXQwb~S9X9SZpvGuBguiBY3nHye4KFP5iGGt6pQzWusqL3MVrGMLUgKWee35fFn8DjbkI8s~y9aS4mJxK5CjEmipo6T4dPvL7iBePxzv7wER1Rk64UJuTqekP1lpaIKoT0bVLG1tbqdO0FCi5rePgwkEzHWjgmkg6Y3cmV3YfDvu7w__"
+                    alt="Team image"
+                    width={500}
+                    height={300}
+                />
         </div>
       </div>
     )

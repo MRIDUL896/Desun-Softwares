@@ -25,8 +25,8 @@ const ContactForm = () => {
         <div className="space-x-16 bg-gradient-to-r from-yellow-500 to-green-800 w-full p-10">
             <div className="flex justify-center items-center mx-16 space-x-16">
             <div className='text-white'>
-                <h2>Let's discuss Your project</h2>
-                <span>Let's figure out how to create an effective application,its cost and terms of its development</span>
+                <h2>Let&apos;s discuss Your project</h2>
+                <span>Let&apos;s figure out how to create an effective application,its cost and terms of its development</span>
             </div>
             <form onSubmit={handleSubmit} className="bg-white p-8 shadow-2xl max-w-xl rounded-xl md:max-w-md lg:max-w-lg xl:max-w-xl">
                 <div className="flex items-end justify-end space-x-2">
